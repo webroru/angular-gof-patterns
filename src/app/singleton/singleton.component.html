@@ -1,0 +1,8 @@
+<p>Singleton</p>
+<button type="button" (click)="addSingleton()">Create Singleton</button>
+<button type="button" (click)="incrementCounter()">Increment Singleton property</button>
+<p>Each Singleton refers to the same object. So property will be changed for every singleton.</p>
+
+<ul>
+    <li *ngFor="let singlton of singltones">Singltone's counter: {{singlton.counter}}</li>
+</ul>
