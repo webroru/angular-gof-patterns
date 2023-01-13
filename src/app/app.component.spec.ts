@@ -1,6 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { AbstractFactoryComponent } from './abstract-factory/abstract-factory.component';
 import { AppComponent } from './app.component';
+import { BuilderComponent } from './builder/builder.component';
 import { FactoryMethodComponent } from './factory-method/factory-method.component';
 import { SingletonComponent } from './singleton/singleton.component';
 
@@ -12,6 +13,7 @@ describe('AppComponent', () => {
         SingletonComponent,
         FactoryMethodComponent,
         AbstractFactoryComponent,
+        BuilderComponent,
       ],
     }).compileComponents();
   });

@@ -1,0 +1,11 @@
+<h2>Builder</h2>
+<p>Allows constructing complex objects step by step</p>
+<button type="button" (click)="prepareNewYorkStylePizza()">Prepare the base of New York style Pizza</button>
+<button type="button" (click)="addExtraCheese()">Add Extra Cheese</button>
+<button type="button" (click)="addMushrooms()">Add Mushrooms</button>
+<button type="button" (click)="addSausage()">Add Sausage</button>
+<button type="button" (click)="bake()">Bake!</button>
+
+<ul>
+    <li *ngFor="let log of logs">{{log}}</li>
+</ul>
