@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { FactoryMethodComponent } from './factory-method/factory-method.component';
 import { SingletonComponent } from './singleton/singleton.component';
 
 describe('AppComponent', () => {
@@ -7,7 +8,8 @@ describe('AppComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [
         AppComponent,
-        SingletonComponent
+        SingletonComponent,
+        FactoryMethodComponent,
       ],
     }).compileComponents();
   });
